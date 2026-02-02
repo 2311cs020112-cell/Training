@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 nltk.download('stopwords')
 
-sentence = "The quick BROWN foxes...they are JUMPING over 10 lazy dogs!"
+sentence = "The quick BROWN foxes...Jumps  over 10 lazy dogs!"
 
 
 sentence = sentence.lower()
@@ -27,3 +27,4 @@ print(clean_tokens)
 
 print("\nFinal cleaned output:")
 print(clean_sentence)
+
